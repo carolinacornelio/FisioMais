@@ -64,7 +64,7 @@ textarea {
 }
 
 /* Estilo para o wrapper de data e hora */
-.data-hora-wrapper {
+.data-hora {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
@@ -197,13 +197,3 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
 }
-
-/* Mensagem de nenhum agendamento
-.mensagem-age {
-  text-align: center;
-  color: #666;
-  padding: 20px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin: 10px 0;
-} */
