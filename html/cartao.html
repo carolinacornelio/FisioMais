@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro - Fisio+Pilates</title>
+    <link rel="stylesheet" href="/css/cartao.css">
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body>
+    <div class="checkout-panel">
+        <div class="panel-body">
+            <h2 class="title">Finalizar Compra</h2>
+
+            <div class="progress-bar">
+                <div class="step active"></div>
+                <div class="step active"></div>
+                <div class="step"></div>
+                <div class="step"></div>
+            </div>
+
+            <div class="payment-method">
+                <label for="cartao" class="method card">
+                    <div class="card-logos">
+                        <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png" />
+                        <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png" />
+                    </div>
+
+                    <div class="radio-input">
+                        <input id="cartao" type="radio" name="payment">
+                        Pagar R$20,99 com cartão de crédito
+                    </div>
+                </label>
+
+                <label for="paypal" class="method paypal">
+                    <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png" />
+                    <div class="radio-input">
+                        <input id="paypal" type="radio" name="payment">
+                        Pagar R$20,99 com PayPal
+                    </div>
+                </label>
+            </div>
+
+            <div class="input-fields">
+                <div class="column-1">
+                    <label for="titular">Nome</label>
+                    <input type="text" id="titular" />
+
+                    <div class="small-inputs">
+                        <div>
+                            <label for="data">Data de validade</label>
+                            <input type="text" id="data" />
+                        </div>
+
+                        <div>
+                            <label for="verificacao">CVV / CVC *</label>
+                            <input type="password" id="verificacao" />
+                        </div>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <label for="numerocartao">Número do cartão</label>
+                    <input type="password" id="numerocartao" />
+
+                    <span class="info">* CVV ou CVC é o código de segurança do cartão, um número único de três dígitos localizado na parte de trás do seu cartão, separado do número do cartão.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel-footer">
+            <a  href="/html/cadastro.html" class="btn back-btn">Voltar</a>
+            <a  href="/html/login.html" class="btn back-btn">Próximo Passo</a>
+        </div>
+    </div>
+</body>
+
+</html>
