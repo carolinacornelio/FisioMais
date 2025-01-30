@@ -8,6 +8,7 @@ body {
   padding: 0;
   height: 100%;
   background-color: #f4f4f9;
+  overflow-x: hidden;
 }
 
 #header-frame {

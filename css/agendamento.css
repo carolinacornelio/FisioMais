@@ -64,13 +64,12 @@ textarea {
 }
 
 /* Estilo para o wrapper de data e hora */
-.data-hora {
+.data-hora-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
 
-/* Estilos dos botões */
 .botoes-container {
   display: flex;
   justify-content: center;
@@ -98,7 +97,7 @@ textarea {
   width: 160px;
 }
 
-/* lista de agendamentos */
+
 .filtros {
   display: flex;
   gap: 10px;
@@ -197,3 +196,13 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* Mensagem de nenhum agendamento
+.mensagem-age {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 10px 0;
+} */

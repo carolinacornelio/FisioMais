@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#6cab5c;
+}
+.feedback {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.avaliar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.avaliar input {
+    display: none;
+}
+
+.avaliar label {
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.avaliar input:checked ~ label {
+    color:#f5b301;
+}
+
+.avaliar label:hover,
+.avaliar label:hover ~ label {
+    color: #f5b301;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 22px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.1em;
+}
+.nome{
+    width: 55%;
+    padding: 2px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8em;
+    align-items: flex-start;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}

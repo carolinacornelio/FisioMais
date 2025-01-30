@@ -16,52 +16,91 @@
     <iframe id="header-frame" src="header.html"></iframe>
 
     <div class="container my-4 p-4 bg-white rounded shadow">
-      <h3>Clientes Cadastrados</h3>
-      <br />
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>E-mail</th>
-            <th>Telefone</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Maria Fernanda</td>
-            <td>maria.fernanda13@aluno.ifsertao-pe.edu.br</td>
-            <td>(87)1234-5678</td>
-            <td>
-              <a
-                href="/html/historico/historico1.html"
-                class="btn btn-secondary btn-sm"
-                >Ver cliente</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Maria Clara</td>
-            <td>maria.clara37@aluno.ifsertao-pe.edu.br</td>
-            <td>(87) 9876-5432</td>
-            <td>
-              <a
-                href="/html/historico/historico2.html"
-                class="btn btn-secondary btn-sm"
-                >Ver cliente</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td>Yandra Maria</td>
-            <td>yandra.maria@aluno.ifsertao-pe.edu.br</td>
-            <td>(87) 9905-5363</td>
-            <td>
-              <a href="/html/historico/historico3.html" class="btn btn-secondary btn-sm">Ver cliente</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+        <h3>Cadastro de Clientes</h3>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="text" id="name" class="form-control" placeholder="Digite o nome">
+            </div>
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF:</label>
+                <input type="number" id="cpf" class="form-control" placeholder="Digite o CPF">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone:</label>
+                <input type="tel" id="phone" class="form-control" placeholder="Digite o telefone">
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Endereço:</label>
+                <textarea id="address" class="form-control" placeholder="Digite o endereço"></textarea>
+            </div>
+            <div class="mb-3">  
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" class="form-control" placeholder="Digite o e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="birthdate" class="form-label">Data de Nascimento:</label>
+                <input type="date" id="birthdate" class="form-control">
+            </div>
+            <div id="divpai">
+                <button type="button" class="btn custom-btn w-100">Editar Cliente</button>
+                <button type="button" class="btn custom-btn w-100">Excluir Cliente</button>
+            </div>
+        </form>
     </div>
+    <div class="container my-4 p-4 bg-white rounded shadow">
+        <h3>Clientes Cadastrados</h3>
+        <br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria Fernanda</td>
+                    <td>maria.fernanda13@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87)1234-5678</td>
+                    <td><a href="/html/historico/historico1.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+                <tr>
+                    <td>Maria Clara</td>
+                    <td>maria.clara37@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87) 9876-5432</td>
+                    <td><a href="/html/historico/historico2.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+                <tr>
+                    <td>Yandra Maria</td>
+                    <td>yandra.maria@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87) 9905-5363</td>
+                    <td><a href="/html/historico/historico3.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+                <tr>
+                    <td>Ana Carolina</td>
+                    <td>ana.carolina15@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87)1234-5678</td>
+                    <td><a href="/html/historico/historico1.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+                <tr>
+                    <td>Sabrina</td>
+                    <td>sabrina.ferraz@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87) 9765-8039</td>
+                    <td><a href="/html/historico/historico2.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+                <tr>
+                    <td>Deyvison</td>
+                    <td>deyvison.silva@aluno.ifsertao-pe.edu.br</td>
+                    <td>(87) 9908-6543</td>
+                    <td><a href="/html/historico/historico3.html" class="btn btn-secondary btn-sm">Ver Histórico</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
 
     <iframe id="footer-frame" src="footer.html"></iframe>
   </body>

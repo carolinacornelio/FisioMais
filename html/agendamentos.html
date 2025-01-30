@@ -20,8 +20,15 @@
 
           <!-- Nome do Profissional -->
           <div class="form-container">
-            <label for="profissional">Profissional:</label>
-            <input type="text" id="profissional" placeholder="Digite o nome do Profissional" required />
+            <label for="servico">Profissionais:</label>
+            <select id="servico" required>
+              <option value="">Selecione o profissional</option>
+              <option>Ana Carolina</option>
+              <option>Lara Beatriz</option>
+              <option>Sabrina Ferraz</option>
+              <option>Yandra Maria</option>
+              <option>Guilherme Nogueira</option>
+            </select>
           </div>
 
           <!-- Data e Hora -->
@@ -60,19 +67,15 @@
             <label for="servico">Tipo de Serviço:</label>
             <select id="servico" required>
               <option value="">Selecione o Serviço</option>
-              <option>Fisioterapia</option>
-              <option>Pilates</option>
+              <option>Fisioterapeuta</option>
+              <option>Fisiotarapia Respiratória</option>
+              <option>Fisiotarapia Neurofuncial</option>
+              <option>Acupunturista</option>
+              <option>Quiropraxista</option>
             </select>
           </div>
 
-          <div class="form-container">
-            <label for="status">Status:</label>
-            <select id="status" required>
-              <option value="agendado">Agendado</option>
-              <option value="realizado">Realizado</option>
-              <option value="cancelado">Cancelado</option>
-            </select>
-          </div>
+        
 
           <!-- Observações -->
           <div class="form-container">
@@ -110,10 +113,27 @@
             </div>
             <div class="card-body">
               <p><strong>Cliente:</strong> Cainã</p>
-              <p><strong>Profissional:</strong> Dr. Severino</p>
-              <p><strong>Data:</strong> 20/01/2025</p>
+              <p><strong>Profissional:</strong> Dr. Ana Carolina</p>
+              <p><strong>Data:</strong> 31/03/2025</p>
               <p><strong>Hora:</strong> 08:30</p>
               <p><strong>Serviço:</strong> Fisioterapia</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn-editar">Editar</button>
+              <button class="btn-excluir">Excluir</button>
+            </div>
+          </div>
+          <div class="card-agendamento">
+            <div class="card-header">
+              <span class="status-agendado">Agendado</span>
+              <button class="btn-check-in">Check-in</button>
+            </div>
+            <div class="card-body">
+              <p><strong>Cliente:</strong> Deyvison </p>
+              <p><strong>Profissional:</strong> Dr. Guilherme Nogueira </p>
+              <p><strong>Data:</strong> 01/02/2025</p>
+              <p><strong>Hora:</strong> 10:30</p>
+              <p><strong>Serviço:</strong> Quiropraxista</p>
             </div>
             <div class="card-footer">
               <button class="btn-editar">Editar</button>

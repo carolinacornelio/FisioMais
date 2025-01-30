@@ -1,75 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  .profissionais {
-    width: 850px;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+.profissionais {
+  width: 1250px;
+  height: 530px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #00000033;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input,
-  button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  button {
-    background-color: #559346;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 600;
-  }
-  
-  button:hover {
-    background-color: #6cab5c;
-  }
-  
-  table {
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  table th,
-  table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  table th {
-    background-color: #f4f4f4;
-  }
-  
-  td button {
-    background-color: transparent;
-    color: #000000;
-    border: none;
-    font-weight: bold;
-  }
-  
-  td button:hover {
-    color: #000000;
-  }
-  
-  .cor {
-    background-color: #f0f0f0;
-  }
+button {
+  background-color: #559346;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #6cab5c;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+table th {
+  background-color: #f4f4f4;
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+td button {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  font-weight: bold;
+}
+
+.cor {
+  background-color: #f0f0f0;
+}
+
+.botao{
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+.botao-link {
+  padding: 8px;
+  background-color:  #559346;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
