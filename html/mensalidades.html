@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Mensalidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/mensalidades.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Gerenciamento de Mensalidades</h2>
+
+        <div class="card mt-4 p-4 shadow-sm">
+            <h5>Mensalidades</h5>
+            <table class="table table-striped" id="mensalidadesTable">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Plano</th>
+                        <th>Valor</th>
+                        <th>Vencimento</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Maria Fernanda</td>
+                        <td>Essencial</td>
+                        <td>R$ 99,90</td>
+                        <td>10/02/2025</td>
+                        <td><span class="badge bg-success">Ativa</span></td>
+                    </tr>
+                    <tr>
+                        <td>Maria Clara</td>
+                        <td>Avançado</td>
+                        <td>R$ 189,90</td>
+                        <td>15/02/2025</td>
+                        <td><span class="badge bg-danger">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>Natalia</td>
+                        <td>Premium</td>
+                        <td>R$ 299,90</td>
+                        <td>20/02/2025</td>
+                        <td><span class="badge bg-success">Ativa</span></td>
+                    </tr>
+                    <tr>
+                        <td>Nathanni</td>
+                        <td>Premium</td>
+                        <td>R$ 299,90</td>
+                        <td>25/02/2025</td>
+                        <td><span class="badge bg-danger">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>Maria Vitória</td>
+                        <td>Avançado</td>
+                        <td>R$ 189,90</td>
+                        <td>01/03/2025</td>
+                        <td><span class="badge bg-success">Ativa</span></td>
+                    </tr>
+                    <tr>
+                        <td>Laura</td>
+                        <td>Essencial</td>
+                        <td>R$ 99,90</td>
+                        <td>05/03/2025</td>
+                        <td><span class="badge bg-danger">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>Caiña</td>
+                        <td>Essencial</td>
+                        <td>R$ 99,90</td>
+                        <td>10/03/2025</td>
+                        <td><span class="badge bg-success">Ativa</span></td>
+                    </tr>
+                    <tr>
+                        <td>Deyvison</td>
+                        <td>Premium</td>
+                        <td>R$ 299,90</td>
+                        <td>15/03/2025</td>
+                        <td><span class="badge bg-danger">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>Marina</td>
+                        <td>Avançado</td>
+                        <td>R$ 189,90</td>
+                        <td>20/03/2025</td>
+                        <td><span class="badge bg-success">Ativa</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card mt-4 p-4 shadow-sm">
+            <h5>Relatórios</h5>
+            <p><strong>Mensalidades Pagas:</strong> 5</p>
+            <p><strong>Mensalidades em Atraso:</strong> 4</p>
+
+            <div class="mt-4">
+                <canvas id="statusChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        const ctx = document.getElementById('statusChart').getContext('2d');
+        const statusChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Pagas', 'Atrasadas'],
+                datasets: [{
+                    label: 'Mensalidades',
+                    data: [5, 4],
+                    backgroundColor: ['#4CAF50', '#f44336'],
+                    borderColor: ['#388E3C', '#D32F2F'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script> -->
+</body>
+
+</html>
