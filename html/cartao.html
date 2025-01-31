@@ -30,7 +30,7 @@
 
                     <div class="radio-input">
                         <input id="cartao" type="radio" name="payment">
-                        Pagar R$20,99 com cartão de crédito
+                        Pagar com cartão de crédito
                     </div>
                 </label>
 
@@ -38,7 +38,7 @@
                     <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png" />
                     <div class="radio-input">
                         <input id="paypal" type="radio" name="payment">
-                        Pagar R$20,99 com PayPal
+                        Pagar com PayPal
                     </div>
                 </label>
             </div>
@@ -51,7 +51,7 @@
                     <div class="small-inputs">
                         <div>
                             <label for="data">Data de validade</label>
-                            <input type="text" id="data" />
+                            <input type="data" id="data" />
                         </div>
 
                         <div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="column-2">
                     <label for="numerocartao">Número do cartão</label>
-                    <input type="password" id="numerocartao" />
+                    <input type="number" id="numerocartao" />
 
                     <span class="info">* CVV ou CVC é o código de segurança do cartão, um número único de três dígitos localizado na parte de trás do seu cartão, separado do número do cartão.</span>
                 </div>
@@ -70,8 +70,8 @@
         </div>
 
         <div class="panel-footer">
-            <a  href="/html/cadastro.html" class="btn back-btn">Voltar</a>
-            <a  href="/html/login.html" class="btn back-btn">Próximo Passo</a>
+            <button class="btn back-btn" onclick="window.location.href='/html/cadastro.html'">Voltar</button>
+            <button class="btn back-btn" onclick="window.location.href='/html/login.html'">Fazer login</button>
         </div>
     </div>
 </body>
