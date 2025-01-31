@@ -1,0 +1,181 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.conteiner-card {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.conteiner-card .card {
+  width: 300px;
+  height: 650px;
+  padding: 10px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #0000002c 0%, #6969695d 100%);
+  border-radius: 15px;
+  box-shadow: 1px 2.5px 7.5px black;
+  transition: transform 0.3s;
+}
+
+.conteiner-card .card:hover {
+  transform: scale(1.05);
+}
+
+.conteiner-card .card .card-title {
+  padding: 30px 20px;
+  border-bottom: 2px solid gray;
+}
+
+.conteiner-card .card .card-title h2 {
+  font-size: 35px;
+  padding-bottom: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.conteiner-card .card .card-title p span {
+  font-size: 40px;
+  padding: 0 5px;
+}
+
+.conteiner-card .card .card-content ul {
+  padding: 10px 30px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.conteiner-card .card .card-content ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.conteiner-card .card .card-content ul li i {
+  margin-right: 4px;
+}
+
+.conteiner-card .card .card-content button {
+  width: 220px;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.conteiner-card .card .card-content button:hover {
+  background: #6cab5c;
+  letter-spacing: 1.2px;
+}
+
+.conteiner-card .card .card-content button a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
