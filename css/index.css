@@ -4,6 +4,12 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+#footer-frame {
+  height: 380px;
+  border: none;
+  width: 100%;
+}
+
 .carousel {
   margin-bottom: 4rem;
 }
@@ -57,7 +63,6 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
-
 .carousel {
   margin-bottom: 4rem;
 }
@@ -80,7 +85,7 @@ body {
 }
 
 .featurette-divider {
-  margin: 5rem 0; 
+  margin: 5rem 0;
 }
 
 @media (min-width: 40em) {
@@ -178,4 +183,22 @@ body {
   text-decoration: none;
   color: black;
   font-size: 15px;
+}
+
+.btn-carroussel {
+  background-color: #559346;
+  border: 1px solid #3f6935;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-carroussel:hover {
+  background-color: #6cab5c;
 }

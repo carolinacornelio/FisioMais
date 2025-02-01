@@ -1,56 +1,65 @@
-body {
+html, body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
-  font-family: "futura md bt";
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-#footer-base {
-  /* height: 200px; */
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #559346;
-  position: relative;
-  bottom: 0;
   width: 100%;
 }
 
-#logos {
+footer {
+  background-color: #559346;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5%;
-  flex-direction: row;
-  margin-top: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#logos .logo {
-  width: 75px;
-  height: 75px;
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
 }
-
-#emails {
-  margin-top: 10px;
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+.footer-section ul li a {
   color: #fff;
-  text-align: center;
-  font-size: 20px;
-}
-
-#direitos {
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 10px;
-}
-
-a {
-  color: #ffffff;
   text-decoration: none;
+  transition: color 0.3s;
 }
-a:hover {
-  color: #b4b1b1;
-  text-decoration: none;
-  cursor: pointer;
+.footer-section ul li a:hover {
+  color: #ddd;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  font-size: 0.9em;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-section {
+    margin: 20px 0;
+  }
 }

@@ -10,6 +10,12 @@ body {
   height: 100vh;
 }
 
+#footer-frame {
+  height: 380px;
+  border: none;
+  width: 100%;
+}
+
 .container-card {
   width: 1100px;
   height: 100%;
