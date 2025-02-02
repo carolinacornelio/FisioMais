@@ -13,6 +13,11 @@ iframe {
   width: 100%;
 }
 
+#header-frame {
+  height: 70px !important;
+  border: none;
+} 
+
 #footer-frame {
   padding-top: 30px;
   border: none;

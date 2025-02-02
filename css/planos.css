@@ -32,7 +32,8 @@ body {
   height: auto;
   padding: 10px 0;
   text-align: center;
-  background: linear-gradient(135deg, #559346 0%, #6cab5c 100%);
+  /* background: linear-gradient(135deg, #ffffff 0%, #6cab5c 100%); */
+  background: linear-gradient(white, gray);
   border-radius: 15px;
   box-shadow: 2px 5px 15px black;
   transition: transform 0.3s;
@@ -50,18 +51,25 @@ body {
 .container-card .card .card-title h2 {
   font-size: 35px;
   padding-bottom: 15px;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .container-card .card .card-title p span {
   font-size: 40px;
   padding: 0 5px;
+  color: black;
+}
+
+.container-card .card .card-title p {
+  padding: 0 5px;
+  color: black;
 }
 
 .container-card .card .card-content ul {
   padding: 10px 30px;
   padding-bottom: 20px;
   text-align: left;
+  color: black;
 }
 
 .container-card .card .card-content ul li {
@@ -76,7 +84,7 @@ body {
 .container-card .card .card-content button {
   width: 220px;
   padding: 10px 20px;
-  background: white;
+  background: #559346;
   border-radius: 20px;
   margin-bottom: 10px;
   outline: none;
@@ -86,12 +94,12 @@ body {
 }
 
 .container-card .card .card-content button:hover {
-  background: #96ff7c;
+  background: #6cab5c;
   letter-spacing: 1.2px;
 }
 
-.container-card .card .card-content button a {
+.a-button {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 15px;
 }
