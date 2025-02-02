@@ -1,107 +1,105 @@
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #28e67a, rgb(8, 104, 8)); /* Tons de verde claro */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #28e67a, rgb(8, 104, 8)); /* Tons de verde claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
 }
 
 .container {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
 }
 
 h1 {
-    text-align: center;
-    color: #2e7d32; /* Verde escuro para o título */
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 25px;
+  text-align: center;
+  color: #2e7d32; /* Verde escuro para o título */
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 .agendamentos {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .agendamento {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
-    transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .agendamento:hover {
-    transform: translateY(2px);
-    box-shadow: 0 6px 15px rgb(77, 76, 76);
+  transform: translateY(2px);
+  box-shadow: 0 6px 15px rgb(77, 76, 76);
 }
 
-/* Ajustes para o nome e horário */
 .nome {
-    font-size: 16px;
-    font-weight: 500;
-    color: #333;
-    flex: 1;
-    margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  flex: 1;
+  margin-right: 20px;
 }
 
 .horario {
-    font-size: 14px;
-    color: #777;
-    flex: 0.5;
+  font-size: 14px;
+  color: #777;
+  flex: 0.5;
 }
 
 .acoes {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 button {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    transition: background-color 0.3s, transform 0.2s;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Botão Presente - Verde */
 .presente {
-    background: linear-gradient(135deg, #4caf50, #66bb6a); /* Verde */
-    color: white;
+  background: linear-gradient(135deg, #4caf50, #66bb6a); /* Verde */
+  color: white;
 }
 
 /* Botão Ausente - Vermelho suave */
 .ausente {
-    background: linear-gradient(135deg, #ef5350, #e57373); /* Vermelho */
-    color: white;
+  background: linear-gradient(135deg, #ef5350, #e57373); /* Vermelho */
+  color: white;
 }
 
 /* Botão Remarcar - Amarelo suave */
 .remarcar {
-    background: linear-gradient(135deg, #ffb300, #ffca28); /* Amarelo */
-    color: white;
+  background: linear-gradient(135deg, #ffb300, #ffca28); /* Amarelo */
+  color: white;
 }
