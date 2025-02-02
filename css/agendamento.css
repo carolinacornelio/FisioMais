@@ -1,3 +1,4 @@
+/* Estilos base */
 body, html {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -67,7 +68,6 @@ textarea {
   resize: none;
 }
 
-/* Estilo para o wrapper de data e hora */
 .data-hora-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,7 +100,6 @@ textarea {
   cursor: pointer;
   width: 160px;
 }
-
 
 .filtros {
   display: flex;
@@ -201,12 +200,90 @@ h2 {
   cursor: pointer;
 }
 
-/* Mensagem de nenhum agendamento
-.mensagem-age {
-  text-align: center;
-  color: #666;
-  padding: 20px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin: 10px 0;
-} */
+/* Responsividade */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-form,
+  .lista-agendamentos {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .data-hora-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    width: 100%;
+  }
+
+  .filtros {
+    flex-direction: column;
+  }
+
+  .filtro-data,
+  .filtro-data-especifica {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .form-container {
+    margin-bottom: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 95%;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+
+  .btn-editar,
+  .btn-excluir {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
