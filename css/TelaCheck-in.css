@@ -65,6 +65,7 @@ h1 {
   font-size: 14px;
   color: #777;
   flex: 0.5;
+  margin-right:10px;
 }
 
 .acoes {
