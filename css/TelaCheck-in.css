@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to bottom, #559346, #86cf73, #559346);
+  background-color: #6cb66c59;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +21,7 @@ iframe {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
-  margin-top: 20px;
+  margin-top: 160px;
 }
 
 h1 {
