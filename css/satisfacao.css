@@ -28,7 +28,9 @@ body{
     height: 610px;
     text-align: center;
     border-radius: 20px;
-    margin-left: 480px;
+    /* margin-left: 480px; */
+    margin: auto;
+    left: 0;
     box-shadow: 10px 10px 10px 10px  rgb(211, 210, 210);  
     
 }

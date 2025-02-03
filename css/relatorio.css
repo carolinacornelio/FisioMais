@@ -19,8 +19,9 @@ body{
     width: 1000px;
     height: 500px;
     position: relative;
-    top: 40px;
-    margin-left: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 30px; 
 }
 
