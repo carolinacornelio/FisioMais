@@ -4,6 +4,7 @@
   --text-color: #ffffff;
   --bg-light: #f8f9fa;
   --card-border: #e0e0e0;
+  --body-font: "Montserrat", system-ui;
 }
 
 body {

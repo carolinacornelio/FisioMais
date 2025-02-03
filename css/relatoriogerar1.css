@@ -1,71 +1,71 @@
-.fundo-degrade{
-    background: linear-gradient(to bottom, #559346,#86cf73, #559346);
-    width: 100%;
-    height: 650px;
-    margin-top: -32px;  
+body {
+  font-family: "Montserrat", system-ui;
 }
 
-textarea{
-    resize: none;
-    margin-left: 140px;
-    border-radius: 10px;
+.fundo-degrade {
+  background: linear-gradient(to bottom, #559346, #86cf73, #559346);
+  width: 100%;
+  height: 650px;
+  margin-top: -32px;
 }
 
-.novo-relatorio{
-    font-family: Arial, sans-serif;
-    font-size: 27px;
-    position: relative;
-    left: 140px;
-    top: 20px;  
+textarea {
+  resize: none;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.novo-relatorio {
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  position: relative;
+  left: 140px;
+  top: 20px;
 }
 
 .botao {
-    text-align: right;
-    background-color:  rgb(88, 196, 88);
-    color: #000000;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    margin-left: 140px;
-    margin-top: 15px;
+  text-align: right;
+  background-color: rgb(88, 196, 88);
+  color: #000000;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 140px;
+  margin-top: 15px;
 }
-
 
 .botao2 {
-    text-align: right;
-    background-color:   rgb(88, 196, 88);
-    color: #000000;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    position: relative;
-    left: 335px;
-    top: -42px;
+  text-align: right;
+  background-color: rgb(88, 196, 88);
+  color: #000000;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  position: relative;
+  left: 335px;
+  top: -42px;
 }
-
 
 .botao2:hover {
-    background-color: #0d7a0d;
+  background-color: #0d7a0d;
 }
-
 
 .botao:hover {
-    background-color: #0d7a0d;
+  background-color: #0d7a0d;
 }
 
-.fisio{
-    width: 365px;
-    position: relative;
-    top: -662px;
-    margin-left: 1516px;    
+.fisio {
+  width: 365px;
+  position: relative;
+  top: -662px;
+  margin-left: 1516px;
 }
 
-
-.fisio2{
-    width: 365px;
-    position: relative;
-    top: -1315px;
-    margin-left: 1381px;    
+.fisio2 {
+  width: 365px;
+  position: relative;
+  top: -1315px;
+  margin-left: 1381px;
 }
