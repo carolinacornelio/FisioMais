@@ -1,4 +1,3 @@
-
 body{
     margin:auto;
     font-family: "Montserrat", system-ui;
@@ -27,10 +26,9 @@ body{
     position: relative;
     background:  rgb(255, 255, 255);
     width: 900px;
-    height: 800px;
+    height: 750px;
     text-align: center;
     border-radius: 20px;
-    /* margin-left: 480px; */
     margin: auto;
     left: 0;
     box-shadow: 10px 10px 10px 10px  rgb(211, 210, 210);  
@@ -90,36 +88,36 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.botao1 {
-    text-align: right;
-    background-color:  rgb(94, 155, 94);
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
+.excel{
     position: relative;
-    left: 700px;
-    top: -100px ;
-}
-.botao1:hover {
-    background-color: #0d7a0d;
-}
-.botao2 {
-    text-align: right;
     background-color:  rgb(94, 155, 94);
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border: none;
+    width: 200px;
+    height: 45px;
+    top: -118px;
+    margin-left: 720px;
     border-radius: 20px;
-    font-size: 16px;
+}
+
+.pdf{
     position: relative;
-    left: 930px;
-    top: -140px ;
+    background-color:  rgb(94, 155, 94);
+    width: 200px;
+    height: 45px;
+    top: -180px;
+    margin-left: 930px;
+    border-radius: 20px;
 }
-.botao2:hover {
-    background-color: #0d7a0d;
+
+.relatorio1{
+    text-decoration: none;
 }
+
+.exportar{
+    color:  rgb(255, 255, 255);
+    padding: 9px;
+    text-align: center;
+}
+
 li{
     text-align: justify;
     margin-left: 30px;
