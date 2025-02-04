@@ -79,42 +79,34 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.botao1 {
-    text-align: right;
-    background-color:  rgb(94, 155, 94);
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
+.excel{
     position: relative;
-    left: -100px;
+    background-color:  rgb(94, 155, 94);
+    width: 200px;
+    height: 45px;
     top: 20px;
-}
-
-
-.botao1:hover {
-    background-color: #0d7a0d;
-}
-
-.botao2 {
-    text-align: right;
-    background-color:  rgb(94, 155, 94);
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    border: none;
+    margin-left: 220px;
     border-radius: 20px;
-    font-size: 16px;
+}
+
+.pdf{
     position: relative;
-    left: 80px;
-    top: -22px ;
+    background-color:  rgb(94, 155, 94);
+    width: 200px;
+    height: 45px;
+    top: -43px;
+    margin-left: 430px;
+    border-radius: 20px;
 }
 
-
-.botao2:hover {
-    background-color: #0d7a0d;
+.relatorio1{
+    text-decoration: none;
 }
 
+.exportar{
+    color:  rgb(255, 255, 255);
+    padding: 9px;
+}
 
 li{
     text-align: justify;
