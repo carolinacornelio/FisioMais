@@ -1,15 +1,15 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", system-ui;
     margin: 0;
     padding: 0;
     background-color: #e6f7e6; /* Verde claro */
-    color: #2e7d32; /* Verde escuro */
+    color: #559346; /* Verde escuro */
 }
 
 
 header {
-    background-color: #1b5e20; /* Verde mais escuro */
+    background-color: #559346; /* Verde mais escuro */
     color: #ffffff;
     padding: 1rem 2rem;
     text-align: center;

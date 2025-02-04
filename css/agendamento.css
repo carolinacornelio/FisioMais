@@ -1,8 +1,11 @@
-body {
-  font-family: Arial, sans-serif;
+/* Estilos base */
+body, html {
+  font-family: "Montserrat", system-ui;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 iframe {
@@ -10,10 +13,17 @@ iframe {
   width: 100%;
 }
 
+#header-frame {
+  height: 70px !important;
+  border: none;
+} 
+
 #footer-frame {
   padding-top: 30px;
   border: none;
+  height: 350px;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -95,7 +105,6 @@ textarea {
   cursor: pointer;
   width: 160px;
 }
-
 
 .filtros {
   display: flex;
@@ -196,3 +205,90 @@ h2 {
   cursor: pointer;
 }
 
+/* Responsividade */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-form,
+  .lista-agendamentos {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .data-hora-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    width: 100%;
+  }
+
+  .filtros {
+    flex-direction: column;
+  }
+
+  .filtro-data,
+  .filtro-data-especifica {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .form-container {
+    margin-bottom: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 95%;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+
+  .btn-editar,
+  .btn-excluir {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}

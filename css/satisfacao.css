@@ -1,0 +1,119 @@
+body {
+  margin: auto;
+  font-family: "Montserrat", system-ui;
+}
+
+.fundo-verde {
+  position: relative;
+  background: rgb(94, 155, 94);
+  width: 100%;
+  height: 80px;
+  top: -25px;
+  text-align: center;
+}
+
+.texto-relatorio {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.fundo-branco {
+  position: relative;
+  background: rgb(255, 255, 255);
+  width: 900px;
+  height: 610px;
+  text-align: center;
+  border-radius: 20px;
+  /* margin-left: 480px; */
+  margin: auto;
+  left: 0;
+  box-shadow: 10px 10px 10px 10px rgb(211, 210, 210);
+}
+
+.titulo-relatorio {
+  color: rgb(94, 155, 94);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitulo {
+  margin-left: -620px;
+  font-family: Arial, sans-serif;
+}
+
+.texto1 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.texto2 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.texto3 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.subtitulo2 {
+  text-align: justify;
+  margin-left: -5px;
+  font-family: Arial, sans-serif;
+}
+
+.texto4 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
+}
+.texto5 {
+  text-align: justify;
+  margin-left: -5px;
+  font-family: Arial, sans-serif;
+}
+li {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.botao1 {
+  text-align: right;
+  background-color: rgb(94, 155, 94);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  position: relative;
+  left: -100px;
+  top: 20px;
+}
+
+.botao1:hover {
+  background-color: #0d7a0d;
+}
+
+.botao2 {
+  text-align: right;
+  background-color: rgb(94, 155, 94);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  position: relative;
+  left: 80px;
+  top: -22px;
+}
+
+.botao2:hover {
+  background-color: #0d7a0d;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliações e Prontuários</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/avaliacoes.css">
+</head>
+
+<body>
+    <iframe id="header-frame" src="header.html"></iframe>
+
+    <div class="container">
+        <h2 class="text-center">Avaliações e Prontuários</h2>
+
+        <div class="card">
+            <div class="card-header registro">
+                <h5 class="mb-0">Registrar Nova Avaliação</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="tipoAvaliacao" class="form-label">Tipo de Avaliação</label>
+                        <select class="form-select" id="tipoAvaliacao">
+                            <option value="inicial">Inicial</option>
+                            <option value="evolutiva">Evolutiva</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="observacoes" class="form-label">Observações</label>
+                        <textarea class="form-control" id="observacoes" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="anexos" class="form-label">Anexos (Opcional)</label>
+                        <input type="file" class="form-control" id="anexos" />
+                    </div>
+                    <select class="form-select" id="profissional">
+                        <option value="">Selecione o profissional</option>
+                        <option>Ana Carolina</option>
+                        <option>Breno Diniz</option>
+                        <option>Lara Beatriz</option>
+                        <option>Guilherme Nogueira</option>
+                        <option>Sabrina Ferraz</option>
+                        <option>Yandra Maria</option>
+                    </select>
+                    <br>
+                    <div class="mb-3">
+                        <label for="observacoes" class="form-label">Nome do cliente</label>
+                        <textarea class="form-control" id="observacoes" rows="1"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-success w-100">Salvar Avaliação</button>
+                </form>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100"> <a style="text-decoration: none; color: white;"
+                href="/html/historico_avaliacoes.html">Ver Avaliações</a></button>
+
+
+    </div>
+    <iframe id="footer-frame" src="footer.html"></iframe>
+
+</body>
+
+</html>

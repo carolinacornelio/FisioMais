@@ -9,6 +9,7 @@ body {
   height: 100%;
   background-color: #f4f4f9;
   overflow-x: hidden;
+  font-family: "Montserrat", system-ui;
 }
 
 #header-frame {

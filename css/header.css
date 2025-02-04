@@ -1,14 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "futura md bt";
+  font-family: "Montserrat", system-ui;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #559346;
   overflow-x: hidden;
 }
 

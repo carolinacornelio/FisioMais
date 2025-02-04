@@ -1,0 +1,101 @@
+body {
+  font-family: "Montserrat", system-ui;
+  background-color: #6cb66c59;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 100px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-top: 160px;
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.agendamentos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.agendamento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.438);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.agendamento:hover {
+  transform: translateY(2px);
+  box-shadow: 0 6px 15px rgb(77, 76, 76);
+}
+
+.nome {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.horario {
+  font-size: 14px;
+  color: #777;
+  flex: 0.5;
+}
+
+.acoes {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+.presente {
+  background: linear-gradient(135deg, #4caf50, #66bb6a);
+  color: white;
+}
+.ausente {
+  background: linear-gradient(135deg, #ef5350, #e57373);
+  color: white;
+}
+
+.remarcar {
+  background: linear-gradient(135deg, #ffb300, #ffca28);
+  color: white;
+}
