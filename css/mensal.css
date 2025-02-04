@@ -29,7 +29,6 @@ body{
     height: 730px;
     text-align: center;
     border-radius: 20px;
-    /* margin-left: 480px; */
     margin: auto;
     left: 0;
     box-shadow: 10px 10px 10px 10px  rgb(211, 210, 210);  
@@ -106,6 +105,7 @@ body{
 .exportar{
     color:  rgb(255, 255, 255);
     padding: 9px;
+    text-align: center;
 }
 
 li{
