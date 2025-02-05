@@ -18,54 +18,43 @@ textarea {
 .novo-relatorio {
   font-family: Arial, sans-serif;
   font-size: 27px;
+  color: #559346;
   position: relative;
   left: 140px;
   top: 20px;
 }
 
-.botao {
-  text-align: right;
-  background-color: rgb(88, 196, 88);
-  color: #000000;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  margin-left: 140px;
-  margin-top: 15px;
-}
-
-.botao2 {
-  text-align: right;
-  background-color: rgb(88, 196, 88);
-  color: #000000;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
+.botao-enviar{
   position: relative;
-  left: 335px;
-  top: -42px;
+  background-color: #559346;
+  width: 200px;
+  height: 45px;
+  top: 10px;
+  margin-left: 160px;
+  border-radius: 20px;
 }
 
-.botao2:hover {
+.botao-voltar{
+  position: relative;
+  background-color:  #559346;
+  width: 200px;
+  height: 45px;
+  top: -52px;
+  margin-left: 370px;
+  border-radius: 20px;
+}
+
+.enviar{
+  text-decoration: none;
+}
+
+.texto-relatorio{
+  color:  rgb(255, 255, 255);
+  padding: 9px;
+  text-align: center;
+}
+
+.texto-relatorio:hover {
   background-color: #0d7a0d;
-}
-
-.botao:hover {
-  background-color: #0d7a0d;
-}
-
-.fisio {
-  width: 365px;
-  position: relative;
-  top: -662px;
-  margin-left: 1516px;
-}
-
-.fisio2 {
-  width: 365px;
-  position: relative;
-  top: -1315px;
-  margin-left: 1381px;
+  border-radius: 20px;
 }

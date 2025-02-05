@@ -27,7 +27,7 @@ body{
 
 
 .fundo-relatorio{
-    background-color:rgb(94, 155, 94);
+    background-color: #559346;
     width: 895px;
     height: 80px;
     position: relative;
@@ -47,7 +47,7 @@ body{
 
 
 .fundo-mensal{
-    background-color:rgb(94, 155, 94);
+    background-color: #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -67,7 +67,7 @@ body{
 
 
 .fundo-agenda{
-    background-color: rgb(94, 155, 94);
+    background-color: #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -88,7 +88,7 @@ body{
 
 
 .fundo-comentario{
-    background-color: rgb(94, 155, 94);
+    background-color:  #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -153,7 +153,7 @@ body{
 
 .criar{
     position: relative;
-    background-color:  rgb(94, 155, 94);
+    background-color:#559346;
     width: 250px;
     height: 45px;
     top: -230px;
