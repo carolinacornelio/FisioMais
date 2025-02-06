@@ -1,97 +1,94 @@
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="/css/agendamento.css" />
-      <title>Agendamento</title>
-    </head>
-    <body>
-      <iframe id="header-frame" src="header.html"></iframe>
-      <div class="container">
-        <div class="container-form">
-          <h1>Tela de Agendamento</h1>
-          <form id="agendamentoForm">
-            <!-- Nome do Cliente -->
-            <div class="form-container">
-              <label for="cliente">Cliente:</label>
-              <input type="text" id="cliente" placeholder="Digite seu Nome" required />
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/agendamento.css" />
+    <title>Agendamento</title>
+  </head>
+  <body>
+    <iframe id="header-frame" src="header.html"></iframe>
+    <div class="container">
+      <div class="container-form">
+        <h1>Tela de Agendamento</h1>
+        <form id="agendamentoForm">
+          <!-- Nome do Cliente -->
+          <div class="form-container">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" placeholder="Digite seu Nome" required />
+          </div>
 
-            <!-- Nome do Profissional -->
-            <div class="form-container">
-              <label for="servico">Profissionais:</label>
-              <select id="servico" required>
-                <option value="">Selecione o profissional</option>
-                <option>Ana Carolina</option>
-                <option>Breno Diniz</option>
-                <option>Lara Beatriz</option>
-                <option>Guilherme Nogueira</option>
-                <option>Sabrina Ferraz</option>
-                <option>Yandra Maria</option>
-              </select>
-            </div>
+          <!-- Nome do Profissional -->
+          <div class="form-container">
+            <label for="servico">Profissionais:</label>
+            <select id="servico" required>
+              <option value="">Selecione o profissional</option>
+              <option>Ana Carolina</option>
+              <option>Breno Diniz</option>
+              <option>Lara Beatriz</option>
+              <option>Guilherme Nogueira</option>
+              <option>Sabrina Ferraz</option>
+              <option>Yandra Maria</option>
+            </select>
+          </div>
 
-            <!-- Data e Hora -->
-            <div class="form-container">
-              <div class="data-hora">
-                <div class="input-group">
-                  <label for="data">Data:</label>
-                  <input type="date" name="data" id="data" required />
-                </div>
+          <!-- Data e Hora -->
+          <div class="form-container">
+            <div class="data-hora">
+              <div class="input-group">
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data" min="2025-01-01" max="2025-12-31" />
+              </div>
 
-                <div class="input-group">
-                  <label for="hora">Hora:</label>
-                  <select id="hora" required>
-                    <option value="">Selecione</option>
-                    <option>08:30</option>
-                    <option>09:00</option>
-                    <option>09:30</option>
-                    <option>10:00</option>
-                    <option>10:30</option>
-                    <option>11:00</option>
-                    <option>14:00</option>
-                    <option>14:30</option>
-                    <option>15:00</option>
-                    <option>15:30</option>
-                    <option>16:00</option>
-                    <option>16:30</option>
-                    <option>17:00</option>
-                    <option>17:30</option>
-                  </select>
-                </div>
+              <div class="input-group">
+                <label for="hora">Hora:</label>
+                <select id="hora" required>
+                  <option value="">Selecione</option>
+                  <option>08:30</option>
+                  <option>09:00</option>
+                  <option>09:30</option>
+                  <option>10:00</option>
+                  <option>10:30</option>
+                  <option>11:00</option>
+                  <option>14:00</option>
+                  <option>14:30</option>
+                  <option>15:00</option>
+                  <option>15:30</option>
+                  <option>16:00</option>
+                  <option>16:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                </select>
               </div>
             </div>
+          </div>
 
-            <!-- Tipo de Serviço -->
-            <div class="form-container">
-              <label for="servico">Tipo de Serviço:</label>
-              <select id="servico" required>
-                <option value="">Selecione o Serviço</option>
-                <option>Fisioterapeuta</option>
-                <option>Fisiotarapia Respiratória</option>
-                <option>Fisiotarapia Neurofuncial</option>
-                <option>Acupunturista</option>
-                <option>Quiropraxista</option>
-              </select>
-            </div>
+          <!-- Tipo de Serviço -->
+          <div class="form-container">
+            <select required>
+              <option value="">Selecione o Serviço</option>
+              <option>Fisioterapeuta</option>
+              <option>Fisiotarapia Respiratória</option>
+              <option>Fisiotarapia Neurofuncial</option>
+              <option>Acupunturista</option>
+              <option>Quiropraxista</option>
+            </select>
+          </div>
 
-          
+          <!-- Observações -->
+          <div class="form-container">
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" rows="5" placeholder="Adicione observações importantes"></textarea>
+          </div>
 
-            <!-- Observações -->
-            <div class="form-container">
-              <label for="observacoes">Observações:</label>
-              <textarea id="observacoes" rows="5" placeholder="Adicione observações importantes"></textarea>
-            </div>
-
-            <!-- Botões -->
-            <div class="botoes-container">
-              <button type="submit" class="btn-agendar">Agendar</button>
-              <button type="button" class="btn-cancelar">Cancelar</button>
-            </div>
-          </form>
-        </div>
-        <!-- Lista de Agendamentos -->
+          <!-- Botões -->
+          <div class="botoes-container">
+            <button type="submit" class="btn-agendar">Agendar</button>
+            <button type="button" class="btn-cancelar">Cancelar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Lista de Agendamentos -->
       <div class="lista-agendamentos">
         <h2>Agendamentos</h2>
 
@@ -102,7 +99,7 @@
             <option value="semana">Visualização Semanal</option>
             <option value="mes">Visualização Mensal</option>
           </select>
-          <input type="date" class="filtro-data-especifica" />
+          <input type="date" class="filtro-data-especifica" min="2025-01-01" max="2025-12-31" />
         </div>
 
         <!-- Cards de Agendamento -->
@@ -110,7 +107,7 @@
           <div class="card-agendamento">
             <div class="card-header">
               <span class="status-agendado">Agendado</span>
-              <a href="TelaCkeck-in.html"><button class="btn-check-in">Check-in</button></a>
+              <a href="TelaCheck-in.html" class="btn-check-in">Check-in</a>
             </div>
             <div class="card-body">
               <p><strong>Cliente:</strong> Marina Oliveira</p>
@@ -127,7 +124,7 @@
           <div class="card-agendamento">
             <div class="card-header">
               <span class="status-agendado">Agendado</span>
-              <a href="TelaCkeck-in.html"><button class="btn-check-in">Check-in</button></a>
+              <a href="TelaCheck-in.html" class="btn-check-in">Check-in</a>
             </div>
             <div class="card-body">
               <p><strong>Cliente:</strong> Cainã Haniel</p>
@@ -144,11 +141,11 @@
           <div class="card-agendamento">
             <div class="card-header">
               <span class="status-agendado">Agendado</span>
-              <button class="btn-check-in">Check-in</button>
+              <a href="TelaCheck-in.html" class="btn-check-in">Check-in</a>
             </div>
             <div class="card-body">
-              <p><strong>Cliente:</strong> Deyvison </p>
-              <p><strong>Profissional:</strong> Dr. Guilherme Nogueira </p>
+              <p><strong>Cliente:</strong> Deyvison</p>
+              <p><strong>Profissional:</strong> Dr. Guilherme Nogueira</p>
               <p><strong>Data:</strong> 01/02/2025</p>
               <p><strong>Hora:</strong> 10:30</p>
               <p><strong>Serviço:</strong> Quiropraxista</p>
