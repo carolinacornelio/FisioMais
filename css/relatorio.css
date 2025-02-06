@@ -1,14 +1,14 @@
 body{
     margin:auto;
+    font-family: "Montserrat", system-ui;
 }
 
 #header-frame {
-    background: linear-gradient(to bottom, #559346,#86cf73, #559346);
     width: 100%;
     height: 80px;
 }
 .fundo-degrade{
-    background: linear-gradient(to bottom, #559346,#86cf73, #559346);
+    background-color: white;
     width: 100%;
     height: 650px;
     margin-top: -32px;
@@ -19,14 +19,15 @@ body{
     width: 1000px;
     height: 500px;
     position: relative;
-    top: 40px;
-    margin-left: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 30px; 
 }
 
 
 .fundo-relatorio{
-    background-color:rgb(94, 155, 94);
+    background-color: #559346;
     width: 895px;
     height: 80px;
     position: relative;
@@ -46,7 +47,7 @@ body{
 
 
 .fundo-mensal{
-    background-color:rgb(94, 155, 94);
+    background-color: #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -66,7 +67,7 @@ body{
 
 
 .fundo-agenda{
-    background-color: rgb(94, 155, 94);
+    background-color: #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -87,7 +88,7 @@ body{
 
 
 .fundo-comentario{
-    background-color: rgb(94, 155, 94);
+    background-color:  #559346;
     width: 300px;
     height: 120px;
     position: relative;
@@ -152,7 +153,7 @@ body{
 
 .criar{
     position: relative;
-    background-color:  rgb(94, 155, 94);
+    background-color:#559346;
     width: 250px;
     height: 45px;
     top: -230px;

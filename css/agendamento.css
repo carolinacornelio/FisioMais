@@ -1,6 +1,6 @@
 /* Estilos base */
 body, html {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", system-ui;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
@@ -13,6 +13,11 @@ iframe {
   width: 100%;
 }
 
+#header-frame {
+  height: 70px !important;
+  border: none;
+} 
+
 #footer-frame {
   padding-top: 30px;
   border: none;
@@ -21,7 +26,7 @@ iframe {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   gap: 30px;
   bottom: 10px;
@@ -29,7 +34,7 @@ iframe {
 
 .container-form {
   width: 570px;
-  height: 600px;
+  height: 620px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;

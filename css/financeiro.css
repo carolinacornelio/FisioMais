@@ -1,15 +1,14 @@
-/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", system-ui;
     margin: 0;
     padding: 0;
-    background-color: #e6f7e6; /* Verde claro */
-    color: #559346; /* Verde escuro */
+    background-color: #e6f7e6; 
+    color: #559346;
 }
 
 
 header {
-    background-color: #559346; /* Verde mais escuro */
+    background-color: #559346;
     color: #ffffff;
     padding: 1rem 2rem;
     text-align: center;
@@ -28,7 +27,7 @@ main {
 
 
 .financial-summary {
-    background-color: #a5d6a7; /* Verde pastel */
+    background-color: #a5d6a7; 
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 2rem;
@@ -47,36 +46,11 @@ main {
 }
 
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-    background-color: #ffffff;
-}
-
-
-table thead {
-    background-color: #4caf50; /* Verde vivo */
-    color: white;
-}
-
-
 table th, table td {
     padding: 1rem;
     text-align: left;
-    border: 1px solid #c8e6c9; /* Verde claro */
+    border: 1px solid #c8e6c9; 
 }
-
-
-table tr:nth-child(even) {
-    background-color: #f1f8e9; /* Verde muito claro */
-}
-
-
-table tr:hover {
-    background-color: #c8e6c9; /* Verde claro ao passar o mouse */
-}
-
 
 footer {
     text-align: center;
