@@ -112,3 +112,15 @@ p {
 .btn-carroussel:hover {
   background-color: #559346;
 }
+
+@media (max-width: 1200px) {
+  .conteiner-card {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .conteiner-card .card {
+    margin: 10px;
+  }
+}
