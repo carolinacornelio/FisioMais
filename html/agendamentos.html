@@ -39,44 +39,51 @@
                 <label for="data">Data:</label>
                 <input type="date" name="data" id="data" min="2025-01-01" max="2025-12-31" />
               </div>
-
-                <div class="input-group">
-                  <label for="hora">Hora:</label>
-                  <select id="hora" required>
-                    <option value="">Selecione</option>
-                    <option>08:30</option>
-                    <option>09:00</option>
-                    <option>09:30</option>
-                    <option>10:00</option>
-                    <option>10:30</option>
-                    <option>11:00</option>
-                    <option>14:00</option>
-                    <option>14:30</option>
-                    <option>15:00</option>
-                    <option>15:30</option>
-                    <option>16:00</option>
-                    <option>16:30</option>
-                    <option>17:00</option>
-                    <option>17:30</option>
-                  </select>
-                </div>
+              <!-- Horario de agendamento -->
+              <div class="input-group">
+                <label for="hora">Hora:</label>
+                <select id="hora" required>
+                  <option value="">Selecione</option>
+                  <option>08:30</option>
+                  <option>09:00</option>
+                  <option>09:30</option>
+                  <option>10:00</option>
+                  <option>10:30</option>
+                  <option>11:00</option>
+                  <option>14:00</option>
+                  <option>14:30</option>
+                  <option>15:00</option>
+                  <option>15:30</option>
+                  <option>16:00</option>
+                  <option>16:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                </select>
               </div>
             </div>
+          </div>
 
-            <!-- Tipo de Serviço -->
-            <div class="form-container">
-              <label for="servico">Tipo de Serviço:</label>
-              <select id="servico" required>
-                <option value="">Selecione o Serviço</option>
-                <option>Fisioterapeuta</option>
-                <option>Fisiotarapia Respiratória</option>
-                <option>Fisiotarapia Neurofuncial</option>
-                <option>Acupunturista</option>
-                <option>Quiropraxista</option>
-              </select>
-            </div>
-
-          
+          <!-- Tipo de Serviço -->
+          <div class="form-container">
+            <label for="servico">Tipo de Serviço:</label>
+            <select id="servico" required>
+              <option value="">Selecione o Serviço</option>
+              <option>Fisioterapeuta</option>
+              <option>Fisiotarapia Respiratória</option>
+              <option>Fisiotarapia Neurofuncial</option>
+              <option>Acupunturista</option>
+              <option>Quiropraxista</option>
+            </select>
+          </div>
+          <!-- Plano -->
+          <div class="form-container">
+            <select id="Planos">
+              <option value="">Escolha seu plano</option>
+              <option value="">Essencial</option>
+              <option value="">Premium</option>
+              <option value="">Top</option>
+            </select>
+          </div>
 
           <!-- Observações -->
           <div class="form-container">
@@ -147,8 +154,8 @@
               <a href="TelaCheck-in.html" class="btn-check-in">Check-in</a>
             </div>
             <div class="card-body">
-              <p><strong>Cliente:</strong> Deyvison </p>
-              <p><strong>Profissional:</strong> Dr. Guilherme Nogueira </p>
+              <p><strong>Cliente:</strong> Deyvison</p>
+              <p><strong>Profissional:</strong> Dr. Guilherme Nogueira</p>
               <p><strong>Data:</strong> 01/02/2025</p>
               <p><strong>Hora:</strong> 14:00 - 16:00</p>
               <p><strong>Serviço:</strong> Quiropraxista</p>
