@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="/css/autenticacao.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <svg class="login__blob" viewBox="0 0 566 840" xmlns="http://www.w3.org/2000/svg">
+        <image class="login__img" href="/img/fisio.png" alt="Homem fazendo fisioterapia"/>
+    </svg>
+
+    <div class="login container grid" id="loginAccessRegister">
+        <div class="login__access">
+            <h1 class="login-titulo">Faça login na sua conta</h1>
+
+            <div class="caixinha-login">
+                <form action="">
+                    <div class="login__content grid">
+                        <div class="login-box">
+                            <input type="email" placeholder="Email" class="login-input">
+                            <i class="ri-mail-fill login__icon"></i>
+                        </div>
+
+                        <div class="login-box">
+                            <input type="password" placeholder="Senha" class="login-input">
+                            <i class="ri-eye-off-fill login_icon login_password" id="loginPassword"></i>
+                        </div>
+                    </div>
+
+                    <a href="/cliente/html/recuperar_senha.html" class="login__forgot">Esqueceu a senha?</a>
+                    <a type="submit" class="login-button" href="/cliente/html/tela.html">Login</a>
+                </form>
+
+                <div class="social">
+                    <p class="social-titulo">Ou faça login com</p>
+
+                    <div class="social-links">
+                        <a href="https://www.google.com/" class="social-link">
+                            <img src="/img/google.png" alt="Logo google" class="social-img">
+                        </a>
+
+                        <a href="https://www.facebook.com/" class="social-link">
+                            <img src="/img/facebook.jpg" alt="Logo facebook" class="social-img">
+                        </a>
+
+                        <a href="https://www.apple.com/" class="social-link">
+                            <img src="/img/apple.png" alt="Logo apple" class="social-img">
+                        </a>
+                    </div>
+                </div>
+
+                <p class="atalho-cadastro">
+                    Não tem uma conta?
+                    <a href="/cliente/html/cadastro.html">Crie uma conta.</a>
+                </p>
+            </div>
+        </div>
+</body>
+
+</html>
