@@ -26,7 +26,7 @@ p {
 
 .conteiner-card .card {
   width: 300px;
-  height: 650px;
+  height: 550px;
   padding: 10px 0;
   text-align: center;
   background: linear-gradient(135deg, #e1ffcd 0%, #9bcc8c 100%);
@@ -111,4 +111,16 @@ p {
 
 .btn-carroussel:hover {
   background-color: #559346;
+}
+
+@media (max-width: 1200px) {
+  .conteiner-card {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .conteiner-card .card {
+    margin: 10px;
+  }
 }

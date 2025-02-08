@@ -98,3 +98,20 @@ h2 {
 .table-striped tbody tr:hover {
   background-color: #e6f4e6;
 }
+
+
+@media screen and (max-width: 480px){
+  .content{width: 94%;}
+
+  #tabelaAvaliacoes thead{display:none;}
+  #tabelaAvaliacoes tbody td{display: flex; flex-direction: column; }
+}
+
+@media only screen and (min-width: 1200px){
+  .content{width:100%;}
+  #tabelaAvaliacoes tbody tr td:nth-child(1){width:10%;}
+  #tabelaAvaliacoes tbody tr td:nth-child(2){width:30%;}
+  #tabelaAvaliacoes tbody tr td:nth-child(3){width:20%;}
+  #tabelaAvaliacoes tbody tr td:nth-child(4){width:10%;}
+  #tabelaAvaliacoes tbody tr td:nth-child(5){width:30%;}
+}

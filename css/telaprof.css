@@ -31,24 +31,6 @@ button:hover {
   background-color: #6cab5c;
 }
 
-table {
-  width: 100%;
-  margin-top: 20px;
-}
-
-
-table td {
-  padding: 10px;
-  text-align: left;
-  white-space: nowrap;
-}
-
-table th {
-  background-color: #f4f4f4;
-  text-align: left;
-  padding: 10px;
-}
-
 td button {
   background-color: transparent;
   color: #000000;
