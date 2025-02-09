@@ -26,7 +26,7 @@ iframe {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 30px auto;
   display: flex;
   gap: 30px;
@@ -37,10 +37,9 @@ iframe {
   width: 570px;
   height: 675px;
   background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.466);
   padding: 20px;
   border-radius: 8px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -108,8 +107,69 @@ textarea {
   width: 160px;
 }
 
+.filtros {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
 
+.filtro-data,
+.filtro-data-especifica {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
+h2 {
+  color: #2d2c2c;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.lista-agendamentos {
+  width: 570px;
+  min-height: 570px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.466);
+}
+
+.cards-container {
+  display: grid;
+  gap: 15px;
+}
+
+.card-agendamento {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.card-footer {
+  padding: 15px;
+  background-color: #f8f9fa;
+  display: flex;
+  gap: 10px;
+}
 
 /* Responsividade */
 @media (max-width: 1200px) {
@@ -158,7 +218,8 @@ textarea {
 }
 
 @media (max-width: 480px) {
-  .container-form {
+  .container-form,
+  .lista-agendamentos {
     width: 100%;
     padding: 10px;
   }
