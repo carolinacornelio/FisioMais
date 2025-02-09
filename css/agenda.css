@@ -1,125 +1,119 @@
-body{
-    margin:auto;
-    font-family: "Montserrat", system-ui;
+body {
+  margin: auto;
+  font-family: "Montserrat", system-ui;
 }
 
-
-.fundo-verde{
-    position: relative;
-    background:  rgb(255, 255, 255);
-    width: 100%;
-    height: 80px;
-    top: -25px;
-    text-align: center;
-    
+.fundo-verde {
+  position: relative;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  top: -25px;
+  text-align: center;
 }
 
-.texto-relatorio{
-    color: #559346;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    text-align: center;
-    
+.texto-relatorio {
+  color: #559346;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
 }
 
-.fundo-branco{
-    position: relative;
-    background:  rgb(255, 255, 255);
-    width: 900px;
-    height: 750px;
-    text-align: center;
-    border-radius: 20px;
-    margin: auto;
-    left: 0;
-    box-shadow: 10px 10px 10px 10px  rgb(211, 210, 210);  
-    
+.fundo-branco {
+  position: relative;
+  background: rgb(255, 255, 255);
+  width: 900px;
+  height: 750px;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+  left: 0;
+  box-shadow: 10px 10px 10px 10px rgb(211, 210, 210);
 }
 
-.titulo-relatorio{
-    color:#559346;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    text-align: center;
-
+.titulo-relatorio {
+  color: #559346;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
 }
 
-.subtitulo{
-    margin-left: -680px;
-    font-family: Arial, sans-serif;
+.subtitulo {
+  margin-left: -680px;
+  font-family: Arial, sans-serif;
 }
 
-.texto{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.texto {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
-.texto2{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.texto2 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
-.texto3{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.texto3 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
-.subtitulo2{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.subtitulo2 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
-.texto4{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.texto4 {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
-.sub{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.sub {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
-.texto10{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
-}
-
-.excel{
-    position: relative;
-    background-color: #559346;
-    width: 200px;
-    height: 45px;
-    top: -118px;
-    margin-left: 720px;
-    border-radius: 20px;
+.texto10 {
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
-.pdf{
-    position: relative;
-    background-color: #559346;
-    width: 200px;
-    height: 45px;
-    top: -180px;
-    margin-left: 930px;
-    border-radius: 20px;
+.excel {
+  position: relative;
+  background-color: #559346;
+  width: 200px;
+  height: 45px;
+  top: -118px;
+  margin-left: 720px;
+  border-radius: 20px;
 }
 
-.relatorio1{
-    text-decoration: none;
+.pdf {
+  position: relative;
+  background-color: #559346;
+  width: 200px;
+  height: 45px;
+  top: -180px;
+  margin-left: 930px;
+  border-radius: 20px;
 }
 
-.exportar{
-    color:  rgb(255, 255, 255);
-    padding: 9px;
-    text-align: center;
+.relatorio1 {
+  text-decoration: none;
 }
 
-li{
-    text-align: justify;
-    margin-left: 30px;
-    font-family: Arial, sans-serif;
+.exportar {
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  text-align: center;
+}
+
+li {
+  text-align: justify;
+  margin-left: 30px;
+  font-family: Arial, sans-serif;
 }
