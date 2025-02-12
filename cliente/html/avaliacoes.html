@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Histórico de Avaliações</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/avaliacoes.css">
+</head>
+
+<body>
+    <iframe id="header-frame" src="/cliente/html/header.html"></iframe>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header filtro">
+                <h5 class="mb-0">Filtros de Busca</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="filtroData" class="form-label">Data</label>
+                            <input type="date" class="form-control" id="filtroData" />
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="filtroProfissional" class="form-label">Profissional</label>
+                            <input type="text" class="form-control" id="filtroProfissional"
+                                placeholder="Nome do profissional" />
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="filtroTipo" class="form-label">Tipo de Avaliação</label>
+                            <select class="form-select" id="filtroTipo">
+                                <option value="">Todos</option>
+                                <option value="inicial">Inicial</option>
+                                <option value="evolutiva">Evolutiva</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <br>
+            <h2 class="text-center">Meu histórico de Avaliações</h2>
+            <div class="card-body">
+                <table class="table table-striped" id="tabelaAvaliacoes">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Profissional</th>
+                            <th>Tipo</th>
+                            <th>Observações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>25/11/2024</td>
+                            <td>Dr. Breno Diniz</td>
+                            <td>Inicial</td>
+                            <td>Queixa de dor no joelho direito após corrida.</td>
+                        </tr>
+                        <tr>
+                            <td>26/01/2025</td>
+                            <td>Dra. Ana Carolina</td>
+                            <td>Evolutiva</td>
+                            <td>Redução do inchaço, ainda com leve desconforto.</td>
+                        </tr>
+                        <tr>
+                            <td>09/02/2025</td>
+                            <td>Dra. Sabrina Ferraz</td>
+                            <td>Evolutiva</td>
+                            <td>Retomada gradual das atividades físicas, sem dor ao caminhar.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <iframe id="footer-frame" src="/cliente/html/footer.html"></iframe>
+</body>
+
+</html>
