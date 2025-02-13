@@ -61,3 +61,15 @@ select option {
   color: #333;
   background-color: #f9f9f9;
 }
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+  h3 {
+      font-size: 1.5rem;
+  }
+  .btn {
+      font-size: 0.875rem;
+  }
+}

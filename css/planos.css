@@ -83,6 +83,7 @@ p {
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
+  color: black;
 }
 
 .conteiner-card .card .card-content a:hover {
