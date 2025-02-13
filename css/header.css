@@ -73,3 +73,30 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .menu ul {
+      display: none; 
+      flex-direction: column;
+      background: #559346;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .menu ul li {
+      padding: 15px 0;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+}

@@ -75,8 +75,7 @@ textarea {
     font-size: 0.8em;
     align-items: flex-start;
 }
-
-button {
+a {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -84,8 +83,9 @@ button {
     color: white;
     font-size: 1em;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover {
+a:hover {
     background-color: #4CAF50;
 }
