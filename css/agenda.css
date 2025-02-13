@@ -3,117 +3,76 @@ body {
   font-family: "Montserrat", system-ui;
 }
 
-.fundo-verde {
-  position: relative;
-  background: rgb(255, 255, 255);
-  width: 100%;
-  height: 80px;
-  top: -25px;
-  text-align: center;
-}
-
 .texto-relatorio {
-  color: #559346;
+  color: rgb(94, 155, 94);
   font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
 }
-
 .fundo-branco {
-  position: relative;
   background: rgb(255, 255, 255);
-  width: 900px;
-  height: 750px;
+  max-width: 900px;
+  width: 100%;
   text-align: center;
   border-radius: 20px;
   margin: auto;
-  left: 0;
-  box-shadow: 10px 10px 10px 10px rgb(211, 210, 210);
-}
-
-.titulo-relatorio {
-  color: #559346;
-  font-family: Arial, sans-serif;
+  box-shadow: 10px 10px 10px rgb(211, 210, 210);
   padding: 20px;
-  text-align: center;
+}
+.titulo-relatorio{
+  color: #559346;
 }
 
-.subtitulo {
-  margin-left: -680px;
+.subtitulo, .subtitulo2, .sub {
+  color: black;
   font-family: Arial, sans-serif;
+  text-align: left;
 }
-
-.texto {
+.texto, .texto2, .texto3, .texto4, .texto10 {
   text-align: justify;
-  margin-left: 30px;
+  margin: 20px;
   font-family: Arial, sans-serif;
 }
-
-.texto2 {
+ul {
   text-align: justify;
-  margin-left: 30px;
+  margin: 20px;
   font-family: Arial, sans-serif;
 }
-
-.texto3 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-
-.subtitulo2 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-
-.texto4 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-.sub {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-.texto10 {
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-
-.excel {
+.excel, .pdf {
   position: relative;
   background-color: #559346;
   width: 200px;
-  height: 45px;
-  top: -118px;
-  margin-left: 720px;
+  height: 32px;
+  margin: auto; 
   border-radius: 20px;
 }
 
-.pdf {
-  position: relative;
-  background-color: #559346;
-  width: 200px;
-  height: 45px;
-  top: -180px;
-  margin-left: 930px;
-  border-radius: 20px;
+.exportar{
+  color: white;
 }
 
-.relatorio1 {
+.relatorio1{
   text-decoration: none;
 }
 
-.exportar {
-  color: rgb(255, 255, 255);
-  padding: 9px;
-  text-align: center;
-}
-
-li {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
+@media (max-width: 768px) {
+  .fundo-branco {
+      padding: 10px; 
+  }
+  .excel, .pdf {
+      width: 200px; 
+      margin: 10px auto; 
+  }
+  .titulo-relatorio, .subtitulo, .texto, .texto2, .texto3, .texto4, .subtitulo2 {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .relatorio1 {
+      display: block;
+      width: 100%; 
+  }
+  li {
+      margin-left: 10px;
+      margin-right: 10px; 
+  }
 }
