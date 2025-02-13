@@ -72,7 +72,7 @@ p {
   margin-right: 4px;
 }
 
-.conteiner-card .card .card-content button {
+.conteiner-card .card .card-content a {
   width: 220px;
   padding: 10px 20px;
   background: white;
@@ -82,15 +82,16 @@ p {
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
-.conteiner-card .card .card-content button:hover {
+.conteiner-card .card .card-content a:hover {
   background: #6cab5c;
   letter-spacing: 1.2px;
 }
 
-.conteiner-card .card .card-content button a {
-  text-decoration: none;
+.conteiner-card .card .card-content a a {
+  /* text-decoration: none; */
   color: black;
   font-size: 15px;
 }
