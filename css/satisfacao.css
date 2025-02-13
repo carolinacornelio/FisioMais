@@ -3,16 +3,7 @@ body {
   font-family: "Montserrat", system-ui;
 }
 
-.fundo-verde {
-  position: relative;
-  background: rgb(255, 255, 255);
-  width: 100%;
-  height: 80px;
-  top: -25px;
-  text-align: center;
-}
-
-.texto-relatorio {
+.titulo-relatorio {
   color:  #559346;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -22,13 +13,13 @@ body {
 .fundo-branco {
   position: relative;
   background: rgb(255, 255, 255);
-  width: 900px;
-  height: 610px;
-  text-align: center;
+  max-width: 900px; 
+  width: 100%; 
+  height: auto; 
   border-radius: 20px;
   margin: auto;
-  left: 0;
   box-shadow: 10px 10px 10px 10px rgb(211, 210, 210);
+  padding: 20px; 
 }
 
 .titulo-relatorio {
@@ -38,77 +29,65 @@ body {
   text-align: center;
 }
 
-.subtitulo {
-  margin-left: -620px;
+.subtitulo, .subtitulo2 {
   font-family: Arial, sans-serif;
+  text-align: left;
+  padding-left: 20px; 
 }
 
-.texto1 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
+.texto1, .texto2, .texto3 {
+text-align: justify;
+margin-left: 20px; 
+margin-right: 20px; 
+font-family: Arial, sans-serif;
 }
 
-.texto2 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-
-.texto3 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-
-.subtitulo2 {
-  text-align: justify;
-  margin-left: 22px;
-  font-family: Arial, sans-serif;
-}
-
-.texto4 {
-  text-align: justify;
-  margin-left: 30px;
-  font-family: Arial, sans-serif;
-}
-.texto5 {
-  text-align: justify;
-  margin-left: 22px;
-  font-family: Arial, sans-serif;
-}
 li {
-  text-align: justify;
   margin-left: 30px;
   font-family: Arial, sans-serif;
 }
 
-.excel{
+.excel, .pdf {
   position: relative;
   background-color: #559346;
   width: 200px;
-  height: 45px;
-  top: 10px;
-  margin-left: 220px;
+  height: 32px;
+  margin: auto; 
   border-radius: 20px;
 }
 
-.pdf{
-  position: relative;
-  background-color:  #559346;
-  width: 200px;
-  height: 45px;
-  top: -55px;
-  margin-left: 430px;
-  border-radius: 20px;
+.relatorio1 {
+text-decoration: none;
 }
 
-.relatorio1{
-  text-decoration: none;
+.exportar {
+color: rgb(255, 255, 255);
+text-align: center;
 }
 
-.exportar{
-  color:  rgb(255, 255, 255);
-  padding: 9px;
-  text-align: center;
+@media (max-width: 768px) {
+.fundo-branco {
+    padding: 10px; 
+}
+
+
+.excel, .pdf {
+    width: 200px; 
+    margin: 10px auto; 
+}
+
+.titulo-relatorio, .subtitulo, .texto1, .texto2, .texto3, .subtitulo2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.relatorio1 {
+    display: block;
+    width: 100%; 
+}
+
+li {
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
 }
