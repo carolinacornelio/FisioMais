@@ -41,6 +41,42 @@ main {
     margin: 0.5rem 0;
 }
 
+/* Estilização dos filtros */
+.filters {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filters h2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.filters input,
+.filters select,
+.filters button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #559346;
+    font-size: 1rem;
+}
+
+.filters button {
+    background-color: #559346;
+    color: white;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #3d6b2f;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -50,6 +86,29 @@ table th, table td {
     padding: 1rem;
     text-align: left;
     border: 1px solid #c8e6c9;
+}
+
+/* Estilização da coluna Status */
+.status {
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status.paid {
+    color: #ffffff;
+    background-color: #4caf50;
+}
+
+.status.pending {
+    color: #ffffff;
+    background-color: #ff9800;
+}
+
+.status.late {
+    color: #ffffff;
+    background-color: #f44336;
 }
 
 footer {
@@ -64,20 +123,24 @@ footer p {
     margin: 0;
 }
 
-
+/* Responsividade */
 @media (max-width: 768px) {
     main {
         padding: 1rem;
     }
-    
+
     .financial-summary {
         padding: 1rem;
     }
-    
+
+    .filters {
+        flex-direction: column;
+    }
+
     table th, table td {
         padding: 0.5rem;
     }
-    
+
     header h1 {
         font-size: 1.5rem;
     }
@@ -87,19 +150,19 @@ footer p {
     header {
         padding: 0.5rem 1rem;
     }
-    
+
     header h1 {
         font-size: 1.2rem;
     }
-    
+
     main {
         padding: 0.5rem;
     }
-    
+
     .financial-summary {
         padding: 0.8rem;
     }
-    
+
     table {
         display: block;
         overflow-x: auto;
