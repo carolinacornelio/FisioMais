@@ -13,7 +13,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 5px #00000033;
 }
-h2{
+h2 {
   font-size: 30px;
   text-align: center;
 }
@@ -42,15 +42,14 @@ td button {
   background-color: #f0f0f0;
 }
 
-.botao{
+.botao {
   margin-top: 15px;
   text-align: center;
 }
 
-
 .botao-link {
   padding: 8px;
-  background-color:  #559346;
+  background-color: #559346;
   color: white;
   text-decoration: none;
   border-radius: 5px;
