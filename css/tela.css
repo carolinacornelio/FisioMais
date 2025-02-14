@@ -4,41 +4,10 @@ body {
     padding: 0;
     background-color: #d9d9ed92;
     color: #333;
-<<<<<<< Updated upstream
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-image: url('/img/fisioterapeuta-idosa.png');
-=======
-}
-
-header {
-    background-color: #33ef68cb;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav {
-    background-color: #2abd65;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
->>>>>>> Stashed changes
 }
 
 .conteiner {
@@ -67,13 +36,9 @@ nav a:hover {
 
 .cartao h3 {
     margin-top: 0;
-<<<<<<< Updated upstream
     color: #6cab5c;
     font-size: 1.6rem;
     font-weight: bold;
-=======
-    
->>>>>>> Stashed changes
 }
 
 .cartao p {
@@ -85,14 +50,8 @@ nav a:hover {
 .botao {
     display: inline-block;
     margin-top: 10px;
-<<<<<<< Updated upstream
     padding: 12px 20px; 
     color: #fff; 
-=======
-    padding: 10px 15px;
-    background-color: #06080a;
-    color: white;
->>>>>>> Stashed changes
     text-decoration: none;
     border-radius: 6px; 
     font-weight: bold;
