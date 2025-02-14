@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "futura md bt";
+  font-family: "Montserrat", system-ui;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -72,4 +72,31 @@ body {
   font-size: 27px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .menu ul {
+      display: none; 
+      flex-direction: column;
+      background: #559346;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .menu ul li {
+      padding: 15px 0;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
 }

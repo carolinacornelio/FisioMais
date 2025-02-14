@@ -1,80 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatorio Mensal</title>
+    <title>Relatório Mensal</title>
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/agenda.css">
-    <link rel="stylesheet" href="/css/base.css">
 </head>
 
 <body>
-
     <iframe id="header-frame" src="header.html"></iframe>
 
-    <div class="fundo-verde">
-        <h1 class="texto-relatorio"> Ocupação da Agenda e Eficiência dos Atendimentos</h1>
-    </div>
+        <h1 class="texto-relatorio">Relatórios de Ocupação da Agenda</h1>
+        
     <div class="fundo-branco">
-
         <h1 class="titulo-relatorio">Janeiro 2025</h1>
-
         <h3 class="subtitulo">Taxa de Ocupação</h3>
-
-        <p class="texto">A taxa de ocupação da agenda atingiu 87%, um excelente índice para o setor, indicando alta
-            demanda pelos
-            serviços <br>da clínica. No total, foram realizados 1.250 atendimentos ao longo do mês, representando um
-            aumento de 9% em<br>
-            comparação a dezembro de 2024.</p>
-
+        <p class="texto">A taxa de ocupação da agenda atingiu 87%, um excelente índice para o setor, indicando alta demanda pelos serviços da clínica. No total, foram realizados 1.250 atendimentos ao longo do mês, representando um aumento de 9% em comparação a dezembro de 2024.</p>
         <p class="texto2"><strong>Distribuição dos atendimentos:</strong></p>
-
-        <p class="texto3">
+        <ul>
             <li>Consultas iniciais e exames: 320 atendimentos</li>
             <li>Sessões de fisioterapia: 850 atendimentos</li>
             <li>Revisões e acompanhamentos: 80 atendimentos</li>
+            <li>Esse crescimento pode ser atribuído a fatores como a melhoria na comunicação com a clínica, com os pacientes, o aumento das campanhas de conscientização sobre a importância da fisioterapia preventiva e a ampliação dos serviços especializados.</li>
+        </ul>
+        <h3 class="subtitulo2">Tempo Médio de Espera</h3>
+        <p class="texto4">A eficiência no atendimento melhorou significativamente, reduzindo o tempo médio de espera para 5 a 10 minutos. Isso foi possível graças a um planejamento mais rigoroso da agenda e à otimização dos processos administrativos.</p>
+        <p class="texto4">Além disso, a implementação de um sistema de lembretes automáticos via SMS e e-mail ajudou a diminuir o número de faltas e atrasos, permitindo um fluxo mais organizado e evitando longos períodos de espera.</p>
+        <h3 class="sub">Impacto da Digitalização na Gestão da Agenda</h3>
+        <p class="texto10">A adoção de um sistema digital de agendamento trouxe melhorias operacionais, permitindo que os pacientes marquem consultas online e recebam notificações automáticas. Com essa inovação, o número de cancelamentos sem aviso prévio caiu em 30%, otimizando a ocupação da agenda e aumentando a eficiência do atendimento.</p>
+        
+        <div class="excel">
+            <a href="relatorio.html" class="relatorio1">
+            <h3 class="exportar">Exportar para Excel</h3>
+        </a>
+        </div>
 
-            <li>Esse crescimento pode ser atribuído a fatores como a melhoria na comunicação com os clínica, com os
-                pacientes,
-                <br>o aumento das campanhas de conscientização sobre a importância da fisioterapia preventiva e a
-                ampliação dos
-                <br>serviços especializados.
-        </p>
-        </li>
+        <div class="pdf">
+            <a href="relatorio.html" class="relatorio1">
+                <h3 class="exportar">Exportar para PDF</h3>
+            </a>
+        </div>
 
-        <h3 class="subtitulo2">Tempo Médio de Espera
-        </h3>
-        <p class="texto4">A eficiência no atendimento melhorou significativamente, reduzindo o tempo médio de espera
-            para 5 a 10 minutos. Isso<br>
-            foi possível graças a um planejamento mais rigoroso da agenda e à otimização dos processos
-            administrativos.<br>
-
-            <br>
-            Além disso, a implementação de um sistema de lembretes automáticos via SMS e e-mail ajudou a diminuir o
-            número de <br>
-            faltas e atrasos, permitindo um fluxo mais organizado e evitando longos períodos de espera.
-        </p>
-        <h3 class="sub"> Impacto da Digitalização na Gestão da Agenda</h3>
-        <p class="texto10">A adoção de um sistema digital de agendamento trouxe melhorias operacionais, permitindo que
-            os pacientes<br>
-            marquem consultas online e recebam notificações automáticas. Com essa inovação, o número de
-            cancelamentos<br>
-            sem aviso prévio caiu em 30%, otimizando a ocupação da agenda e aumentando a eficiência do atendimento.
-        </p>
     </div>
-        <div class="botao-excel">
-            <a href="relatorio.html">
-                <button class="botao1"><strong>Exportar para Excel</strong></button>
-        </div>
-
-        <div class="botao-pdf">
-            <a href="relatorio.html">
-                <button class="botao2"><strong>Exportar para PDF</strong></button>
-        </div>
-
-
     <iframe id="footer-frame" src="footer.html"></iframe>
-
 </body>
 </html>

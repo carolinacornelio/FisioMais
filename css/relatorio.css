@@ -1,177 +1,84 @@
-body{
-    margin:auto;
+.titulo-relatorio, .texto-fundo, .ver, .criar {
+    font-family: Arial, sans-serif;
 }
 
-#header-frame {
-    background: linear-gradient(to bottom, #559346,#86cf73, #559346);
+.titulo-relatorio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conjunto-fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.fundo-relatorios {
+    background-color: #559346;
     width: 100%;
-    height: 80px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(197, 196, 196);
+    text-align: center;
+    box-sizing: border-box;
 }
-.fundo-degrade{
-    background: linear-gradient(to bottom, #559346,#86cf73, #559346);
+
+.ver {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: #3a6d2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.criar {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    background: #559346;
+    height: 40px;
+    width: 60%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px rgb(197, 196, 196);
+}
+
+.criar-texto {
+    color: white;
+}
+
+.criar-link {
+    text-decoration: none;
     width: 100%;
-    height: 650px;
-    margin-top: -32px;
-}
-
-.fundo2{
-    background-color:  rgb(255, 255, 255);
-    width: 1000px;
-    height: 500px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 30px; 
-}
-
-
-.fundo-relatorio{
-    background-color:rgb(94, 155, 94);
-    width: 895px;
-    height: 80px;
-    position: relative;
-    margin-left: 50px;
-    top: 18px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 20px  rgb(197, 196, 196);  
-}
-
-
-.texto-relatorios{
-    font-size: 40px;
-    font-family: Arial, sans-serif;
     text-align: center;
-    padding: 15px;
 }
 
-
-.fundo-mensal{
-    background-color:rgb(94, 155, 94);
-    width: 300px;
-    height: 120px;
-    position: relative;
-    margin-left: 30px;
-    top: 75px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(197, 196, 196);   
+@media (min-width: 768px) {
+    .conjunto-fundo {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .fundo-relatorios {
+        min-width: 250px;
+    }
 }
 
+@media (max-width: 480px) {
+    .ver {
+        font-size: 16px;
+        padding: 8px;
+    }
 
-.texto-mensal{
-    font-size: 23px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 25px;
-}
-
-
-.fundo-agenda{
-    background-color: rgb(94, 155, 94);
-    width: 300px;
-    height: 120px;
-    position: relative;
-    margin-left: 350px;
-    top: -64px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(197, 196, 196);  
-}
-
-
-.texto-agenda{
-    font-size: 23px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 25px;
-   
-}
-
-
-.fundo-comentario{
-    background-color: rgb(94, 155, 94);
-    width: 300px;
-    height: 120px;
-    position: relative;
-    margin-left: 670px;
-    top: -202px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px  rgb(212, 211, 211);
-}
-
-
-.texto-comentario{
-    font-size: 22px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 25px;  
-}
-
-
-.fundo-ver{
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 40px;
-    position: relative;
-    margin-left: 82px;
-    top: -255px;
-    border-radius: 10px;  
-}
-
-
-.fundo-ver2{
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 40px;
-    position: relative;
-    margin-left: 400px;
-    top: -294px;
-    border-radius: 10px;  
-}
-
-
-.fundo-ver3{
-    background-color:  rgb(255, 255, 255);
-    width: 200px;
-    height: 40px;
-    position: relative;
-    margin-left: 720px;
-    top: -335px;
-    border-radius: 10px;  
-}
-
-
-.ver-mensal{
-    position:relative ;
-    text-decoration: none;
-    color: black;
-    font-size: 19px;
-    font-family: Arial, sans-serif;
-    margin-left: 45px;
-    top: 10px;
-}
-
-
-.criar{
-    position: relative;
-    background-color:  rgb(94, 155, 94);
-    width: 250px;
-    height: 45px;
-    top: -230px;
-    margin-left: 375px;
-    border-radius: 20px;
-}
-
-
-.criar-texto{
-    position: relative;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    color:  rgb(255, 255, 255);
-    text-align: center;
-    top: 8px;
-}
-
-
-.criar2{
-    text-decoration: none;
+    .criar {
+        width: 80%;
+    }
 }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Histórico de Maria Fernanda</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/cadastro_cliente.css">
+<link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body>
+    <iframe id="header-frame" src="/cliente/html/header.html"></iframe>
+    <div class="container my-4 p-4 bg-white rounded shadow">
+        <h3>Meus Dados</h3>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="text" id="name" class="form-control" value="Marina Oliveira" />
+            </div>
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF:</label>
+                <input type="text" id="cpf" class="form-control" value="164.754.523-21" />
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone:</label>
+                <input type="tel" id="phone" class="form-control" value="8793463645" />
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Endereço:</label>
+                <input id="address" class="form-control" value="Santa Rosa"></input>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" class="form-control" value="marina.laissa@aluno.ifsertao-pe.edu.br" />
+            </div>
+            <div class="mb-3">
+                <label for="birthdate" class="form-label">Data de Nascimento:</label>
+                <input type="date" id="birthdate" class="form-control" />
+            </div>
+            <div id="buttons">
+                <button type="button" class="btn custom-btn w-100"> Editar meus dados </button>
+                <button type="button" class="btn custom-btn w-100" style="background-color: red;"> Excluir minha conta
+                </button>
+            </div>
+            <select name="plano" id="plano">
+                <option value="intermediario">Avulso</option>
+                <option value="essencial">Essencial</option>
+                <option value="premium">Premium</option>
+            </select>
+        </form>
+    </div>
+
+
+
+    </div>
+    </div>
+
+    <iframe id="footer-frame" src="/cliente/html/footer.html"></iframe>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", system-ui;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,19 @@ body {
     margin: 0;
     background-color:#6cab5c;
 }
+
+#setinha {
+    color: black;
+    text-decoration: none;
+}
+#voltar {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
 .feedback {
     background: white;
     padding: 30px;
@@ -62,8 +75,7 @@ textarea {
     font-size: 0.8em;
     align-items: flex-start;
 }
-
-button {
+a {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -71,8 +83,9 @@ button {
     color: white;
     font-size: 1em;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover {
+a:hover {
     background-color: #4CAF50;
 }

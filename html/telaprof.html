@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Profissionais</title>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/telaprof.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <iframe id="header-frame" src="header.html"></iframe>
+    <br>
     <div class="profissionais">
         <h2>Lista de Profissionais</h2>
-        <table>
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -36,7 +40,7 @@
                 <tr>
                     <td class="cor">Lara Beatriz</td>
                     <td class="cor">171.302.474-52</td>
-                    <td class="cor">Fisioterapia Respiratória</td>
+                    <td class="cor">Eletroterapeuta</td>
                     <td class="cor">(87) 91234-5678</td>
                     <td class="cor">lara.beatriz@clinica.fisio</td>
                     <td class="cor">Inativo</td>
@@ -45,7 +49,7 @@
                 <tr>
                     <td>Sabrina Ferraz</td>
                     <td>042.722.594-89</td>
-                    <td>Fisioterapeuta Neurofuncional</td>
+                    <td>Médica Fisiatra</td>
                     <td>(87) 98122-5778</td>
                     <td>sabrina.ferraz@clinica.fisio</td>
                     <td>Inativo</td>
@@ -84,9 +88,8 @@
         <div class="botao">
             <a href="cadprof.html" class="botao-link">Cadastre Profissional</a>
         </div>
-     
     </div>
-
+    <br>
     <iframe id="footer-frame" src="footer.html"></iframe>
 </body>
 

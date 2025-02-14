@@ -1,0 +1,260 @@
+/* Estilos base */
+body,
+html {
+  font-family: "Montserrat", system-ui;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+}
+
+#header-frame {
+  height: 70px !important;
+  border: none;
+}
+
+#footer-frame {
+  padding-top: 30px;
+  border: none;
+  height: 350px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  gap: 30px;
+  bottom: 10px;
+}
+
+.container-form {
+  width: 570px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.466);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #2d2c2c;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  width: 97%;
+  padding: 8px;
+  border: 1px solid #d4d2d2b3;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+.data-hora-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.botoes-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-agendar {
+  background-color: #185d36;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 160px;
+}
+
+.btn-cancelar {
+  background-color: #185d36;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 160px;
+}
+
+.filtros {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filtro-data,
+.filtro-data-especifica {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+h2 {
+  color: #2d2c2c;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.lista-agendamentos {
+  width: 570px;
+  min-height: 570px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.466);
+}
+
+.cards-container {
+  display: grid;
+  gap: 15px;
+}
+
+.card-agendamento {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.card-footer {
+  padding: 15px;
+  background-color: #f8f9fa;
+  display: flex;
+  gap: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-form,
+  .lista-agendamentos {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .data-hora-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    width: 100%;
+  }
+
+  .filtros {
+    flex-direction: column;
+  }
+
+  .filtro-data,
+  .filtro-data-especifica {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-form,
+  .lista-agendamentos {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .form-container {
+    margin-bottom: 10px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 95%;
+  }
+
+  .btn-agendar,
+  .btn-cancelar {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .card-body p {
+    font-size: 12px;
+  }
+
+  .btn-editar,
+  .btn-excluir {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}

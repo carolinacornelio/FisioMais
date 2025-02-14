@@ -1,82 +1,56 @@
-/* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", system-ui;
     margin: 0;
     padding: 0;
-    background-color: #e6f7e6; /* Verde claro */
-    color: #559346; /* Verde escuro */
+    background-color: #e6f7e6;
+    color: #559346;
 }
 
-
 header {
-    background-color: #559346; /* Verde mais escuro */
+    background-color: #559346;
     color: #ffffff;
     padding: 1rem 2rem;
     text-align: center;
 }
-
 
 header h1 {
     margin: 0;
     font-size: 2rem;
 }
 
-
 main {
     padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
 }
 
-
 .financial-summary {
-    background-color: #a5d6a7; /* Verde pastel */
+    background-color: #a5d6a7;
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
 .financial-summary h2 {
     margin-top: 0;
 }
-
 
 .financial-summary p {
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
 
-
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 1rem;
-    background-color: #ffffff;
 }
-
-
-table thead {
-    background-color: #4caf50; /* Verde vivo */
-    color: white;
-}
-
 
 table th, table td {
     padding: 1rem;
     text-align: left;
-    border: 1px solid #c8e6c9; /* Verde claro */
+    border: 1px solid #c8e6c9;
 }
-
-
-table tr:nth-child(even) {
-    background-color: #f1f8e9; /* Verde muito claro */
-}
-
-
-table tr:hover {
-    background-color: #c8e6c9; /* Verde claro ao passar o mouse */
-}
-
 
 footer {
     text-align: center;
@@ -86,7 +60,49 @@ footer {
     margin-top: 2rem;
 }
 
-
 footer p {
     margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    
+    .financial-summary {
+        padding: 1rem;
+    }
+    
+    table th, table td {
+        padding: 0.5rem;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 1.2rem;
+    }
+    
+    main {
+        padding: 0.5rem;
+    }
+    
+    .financial-summary {
+        padding: 0.8rem;
+    }
+    
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }

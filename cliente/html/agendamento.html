@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/cliente/css/agendamento.css  " />
+    <title>Agendamento</title>
+  </head>
+  <body>
+    <iframe id="header-frame" src="/cliente/html/header.html"></iframe>
+    <div class="container">
+      <div class="container-form">
+        <h1>Tela de Agendamento</h1>
+        <form id="agendamentoForm">
+          <!-- Nome do Cliente -->
+          <div class="form-container">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" placeholder="Digite seu Nome" required />
+          </div>
+
+          <!-- Nome do Profissional -->
+          <div class="form-container">
+            <label for="servico">Profissionais:</label>
+            <select id="servico" required>
+              <option value="">Selecione o profissional</option>
+              <option>Ana Carolina</option>
+              <option>Breno Diniz</option>
+              <option>Lara Beatriz</option>
+              <option>Guilherme Nogueira</option>
+              <option>Sabrina Ferraz</option>
+              <option>Yandra Maria</option>
+            </select>
+          </div>
+
+          <!-- Data e Hora -->
+          <div class="form-container">
+            <div class="data-hora">
+              <div class="input-group">
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data" min="2025-01-01" max="2025-12-31" />
+              </div>
+              <!-- Horario de agendamento -->
+              <div class="input-group">
+                <label for="hora">Hora:</label>
+                <select id="hora" required>
+                  <option value="">Selecione</option>
+                  <option>08:00 - 10:00</option>
+                  <option>10:00 - 12:00</option>
+                  <option>14:00 - 16:00</option>
+                  <option>16:00 - 18:00</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tipo de Serviço -->
+          <div class="form-container">
+            <label for="servico">Tipo de Serviço:</label>
+            <select required>
+              <option value="">Selecione o Serviço</option>
+              <option>Fisioterapeuta</option>
+              <option>Fisiotarapia Respiratória</option>
+              <option>Fisiotarapia Neurofuncial</option>
+              <option>Acupunturista</option>
+              <option>Quiropraxista</option>
+            </select>
+          </div>
+          <!-- Plano -->
+          <div class="form-container">
+            <label for="">Planos:</label>
+            <select id="Planos">
+              <option value="">Escolha seu plano</option>
+              <option value="">Essencial</option>
+              <option value="">Premium</option>
+              <option value="">Avulso</option>
+            </select>
+          </div>
+
+          <!-- Observações -->
+          <div class="form-container">
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" rows="5" placeholder="Adicione observações importantes"></textarea>
+          </div>
+
+          <!-- Botões -->
+          <div class="botoes-container">
+            <button type="submit" class="btn-agendar">Agendar</button>
+            <button type="button" class="btn-cancelar">Cancelar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Lista de Agendamentos -->
+      <div class="lista-agendamentos">
+        <!-- Cards de Agendamento -->
+        <div class="cards-container">
+          <div class="card-agendamento">
+            <div class="card-header"></div>
+            <div class="card-body">
+              <p><strong>Cliente:</strong> Marina Oliveira</p>
+              <p><strong>Profissional:</strong> Dra. Sabrina Ferraz</p>
+              <p><strong>Data:</strong> 20/03/2025</p>
+              <p><strong>Hora:</strong> 08:00 - 10:00</p>
+              <p><strong>Serviço:</strong> Fisioterapia Neurofuncional</p>
+              <p><strong>Plano:</strong> Avulso</p>
+            </div>
+            <div class="card-footer"></div>
+          </div>
+
+          <!-- ------------------ -->
+
+          <div class="card-agendamento">
+            <div class="card-header"></div>
+            <div class="card-body">
+              <p><strong>Cliente:</strong> Marina Oliveira</p>
+              <p><strong>Profissional:</strong> Dra. Sabrina Ferraz</p>
+              <p><strong>Data:</strong> 20/03/2025</p>
+              <p><strong>Hora:</strong> 08:00 - 10:00</p>
+              <p><strong>Serviço:</strong> Fisioterapia Neurofuncional</p>
+              <p><strong>Plano:</strong> Avulso</p>
+            </div>
+            <div class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe id="footer-frame" src="/cliente/html/footer.html"></iframe>
+  </body>
+</html>

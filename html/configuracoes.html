@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Configurações</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Telaconfiguracao.css" rel="stylesheet">
+    <style>
+        iframe {
+            border: none;
+            width: 100%;
+        }
+
+        #header-frame {
+            height: 70px !important;
+            border: none;
+        }
+
+        #footer-frame {
+            padding-top: 30px;
+            border: none;
+            height: 380px;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe id="header-frame" src="header.html"></iframe>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">Gerenciar</div>
+            <div class="card-body">
+                <form>
+                    <h5>Dados do Consultório</h5>
+                    <div class="mb-3">
+                        <label class="form-label">Nome</label>
+                        <input type="text" class="form-control" value="FISIO+">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Endereço</label>
+                        <input type="text" class="form-control" value="Floresta, PE, Brasil. Rua 6, nº 70">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" value="+55 87 99824-5673">
+                    </div>
+
+                    <h5>Horários de Funcionamento</h5>
+                    <div class="mb-3">
+                        <label class="form-label">Horário de Abertura</label>
+                        <input type="time" class="form-control" value="08:00">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Horário de Fechamento</label>
+                        <input type="time" class="form-control" value="18:00">
+                    </div>
+
+                    <button type="submit" class="btn btn-custom">Salvar</button>
+                    <button type="submit" class="btn btn-custom">Alterar dados</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <iframe id="footer-frame" src="footer.html"></iframe>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

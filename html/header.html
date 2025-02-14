@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
     <title>Header</title>
+    <script src="/js/header.js"></script>
 </head>
 
 <body>
     <header id="header-base">
         <div class="logo">FISIO+</div>
-        <nav>
+        <nav class="menu">
             <ul id="caminhos">
                 <li> <a class="links" href="/html/tela.html" target="_top">Inicio</a> </li>
                 <li> <a class="links" href="/html/agendamentos.html" target="_top">Agendamento</a> </li>
@@ -21,10 +22,19 @@
                 <li> <a class="links" href="/html/mensalidades.html" target="_top">Mensalidades</a> </li>
                 <li> <a class="links" href="/html/relatorio.html" target="_top">Relatórios</a> </li>
                 <li> <a class="links" href="/html/avaliacoes.html" target="_top">Avaliações</a> </li>
+                <li> <a class="links" href="/html/configuracoes.html" target="_top">Configurações</a> </li>
                 <li> <a class="links" href="/html/feedback.html" target="_top">Sair</a> </li>
             </ul>
         </nav>
+        <div class="menu-toggle">&#9776;</div>
     </header>
+
+    <!-- <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function () {
+            document.querySelector(".menu ul").classList.toggle("active");
+        });
+    </script> -->
+
 </body>
 
 </html>
