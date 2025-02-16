@@ -1,5 +1,6 @@
 /* Estilos base */
-body, html {
+body,
+html {
   font-family: "Montserrat", system-ui;
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ iframe {
 #header-frame {
   height: 70px !important;
   border: none;
-} 
+}
 
 #footer-frame {
   padding-top: 30px;
@@ -206,22 +207,18 @@ h2 {
   cursor: pointer;
 }
 
-/* Responsividade */
+/* Desktops */
 @media (max-width: 1200px) {
   .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-form,
-  .lista-agendamentos {
-    width: 80%;
+    flex-direction: row;
+    width: 96%;
   }
 }
-
+/* Tablets */
 @media (max-width: 768px) {
   .container-form,
   .lista-agendamentos {
+    flex-direction: column;
     width: 90%;
   }
 
@@ -233,10 +230,6 @@ h2 {
     font-size: 20px;
   }
 
-  .data-hora-wrapper {
-    grid-template-columns: 1fr;
-  }
-
   .btn-agendar,
   .btn-cancelar {
     width: 100%;
@@ -245,18 +238,13 @@ h2 {
   .filtros {
     flex-direction: column;
   }
-
-  .filtro-data,
-  .filtro-data-especifica {
-    width: 100%;
-  }
 }
-
+/* Celulares */
 @media (max-width: 480px) {
-  .container-form,
+  .container,
   .lista-agendamentos {
-    width: 100%;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
   }
 
   h1 {
@@ -271,20 +259,10 @@ h2 {
     margin-bottom: 10px;
   }
 
-  input,
-  select,
-  textarea {
-    width: 95%;
-  }
-
   .btn-agendar,
   .btn-cancelar {
     padding: 8px;
     font-size: 14px;
-  }
-
-  .card-body p {
-    font-size: 12px;
   }
 
   .btn-editar,
