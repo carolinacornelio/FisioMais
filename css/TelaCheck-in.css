@@ -2,9 +2,23 @@ body {
   font-family: "Montserrat", system-ui;
   background-color: #f0f8f0;
   display: flex;
+<<<<<<< Updated upstream
   flex-direction: column;
   align-items: center;
   margin: 0;
+=======
+  flex-direction: column; /* Altera para coluna para organizar iframe e conteúdo */
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 100px; /* Ajuste a altura conforme necessário */
+>>>>>>> Stashed changes
 }
 
 iframe {
@@ -28,8 +42,12 @@ iframe {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 500px;
+<<<<<<< Updated upstream
   margin-top: 70px;
   margin-bottom: 90px;
+=======
+  margin-top: 20px; /* Espaço entre o iframe e o container */
+>>>>>>> Stashed changes
 }
 
 h1 {
