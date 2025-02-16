@@ -62,14 +62,28 @@ select option {
   background-color: #f9f9f9;
 }
 
-@media (max-width: 768px) {
-  .container {
-      padding: 10px;
+@media (max-width: 768px) { 
+  #divpai { 
+    flex-direction: column;  
+    align-items: center; 
+  } 
+ 
+  #buttons { 
+    justify-content: center;     width: 100%; 
+  } 
+ 
+  select { 
+    width: 90%; 
+  } 
+ 
+  .custom-btn { 
+    width: 100%; 
+    text-align: center; 
+  } 
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
-  h3 {
-      font-size: 1.5rem;
-  }
-  .btn {
-      font-size: 0.875rem;
-  }
-}
+} 

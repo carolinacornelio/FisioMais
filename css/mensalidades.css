@@ -12,7 +12,7 @@ iframe {
 #header-frame {
   height: 70px !important;
   border: none;
-} 
+}
 
 #footer-frame {
   padding-top: 30px;
@@ -87,4 +87,37 @@ h2 {
 
 .badge.bg-danger {
   background-color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .btn-primary,
+  .btn-warning,
+  .btn-info {
+    width: 100%;
+    max-width: none;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+    padding: 0.3em 0.5em;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
