@@ -73,7 +73,7 @@ h1 {
 .horario {
   font-size: 14px;
   color: #777;
-  flex: 0.5;
+width: 50px;
 }
 
 .acoes {
